@@ -1,0 +1,35 @@
+.header {
+  /* background-color: rgb(23, 23, 103); */
+  background-color: #171767;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.input {
+  border-radius: 4px;
+  outline: transparent;
+  border-color: transparent;
+  width: 350px;
+  height: 30px;
+  padding-left: 10px;
+  margin-right: 20px;
+}
+
+.button {
+  border-radius: 4px;
+  outline: transparent;
+  border-color: transparent;
+  width: 100px;
+  height: 35px;
+  cursor: pointer;
+
+  font-size: medium;
+}
